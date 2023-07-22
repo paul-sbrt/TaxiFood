@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ========== FONTAWESOME ========== -->
+    <script
+      src="https://kit.fontawesome.com/fd04cd2110.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ========== FONTS GOOGLE ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ========== CUSTOM CSS ========== -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ========== SCRIPTS ========== -->
+    <script defer src="app.js"></script>
+    <title>TaxiFoo'd</title>
+  </head>
+
+  <body>
+    <!-- ========== HEADER NAV ========== -->
+    <header class="header">
+      <div class="header_logo">
+        <a href="/"><span>Taxi</span><span>Foo'd</span></a>
+      </div>
+      <nav class="header_nav">
+        <ul class="header_nav-list">
+          <li class="header_nav-item btn"><a href="/">Boutique</a></li>
+          <li class="header_nav-item btn">
+            <a href="./team/team.html">Équipe</a>
+          </li>
+          <li class="header_nav-item btn">
+            <a href="./cart/panier.html"
+              >Panier <i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ========== MAIN ========== -->
+    <main class="main">
+      <!-- ========== HERO BANNER ========== -->
+      <section class="hero">
+        <div class="hero-card">
+          <h1 class="hero-title heading">
+            Commandez chez Taxi', Commandez 100 Sushis
+          </h1>
+          <p class="hero-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+            necessitatibus itaque eius asperiores magnam quasi?
+          </p>
+        </div>
+      </section>
+      <!-- ========== PRODUCTS ========== -->
+      <section class="products container">
+        <h2 class="products-title heading">Nos produits</h2>
+        <div class="products-container"></div>
+        <ul class="products-total"></ul>
+        <button class="clear-btn btn">
+          Vider le panier <i class="fa-solid fa-trash"></i>
+        </button>
+      </section>
+    </main>
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <p>© Copyright - CEFIM 2023 - TaxiFoo'd</p>
+      <p>All right reserved</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* header*/
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background: white 0% no-repeat padding-box;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  margin-left: 10px;
+  margin-top: 3px;
+  margin-bottom: 12px;
+  margin-right: 1450px;
+  color: #0b9537;
+}
+
+.logo span {
+  color: #ffe11d;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.icone-menu {
+  text-decoration: none;
+  margin-left: 15px;
+  color: black;
+  font-size: 17px;
+  margin-right: 10px;
+  border: solid #ddd 1px;
+  padding: 7px 7px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.icone-menu:hover {
+  border: solid black 1px;
+}
+
+/*Banner*/
+
+.banner {
+  background-image: url("../../images/hero-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+  color: white;
+  font-size: 50px;
+  font-family: "Kaushan Script", cursive;
+}
+
+/* fiche equipe */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.personne {
+  text-align: center;
+  margin-bottom: 75px;
+  border: solid #ddd 1px;
+  border-radius: 20px;
+  width: 450px;
+  padding: 25px 35px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+  background: #fff;
+}
+
+.personne:hover {
+  border-radius: 20px;
+  border: solid black 1px;
+}
+
+.reg {
+  display: flex;
+  justify-content: start;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.delete {
+  display: flex;
+  justify-content: start;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.editable {
+  display: flex;
+  justify-content: start;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.editable button {
+  border: none;
+  background: none;
+}
+
+.delete button {
+  border: none;
+  background: none;
+}
+
+.reg button {
+  border: none;
+  background: none;
+}
+
+.personne button:hover {
+  transform: scale(1.2);
+}
+
+.personne img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid #ddd;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.personne h2 {
+  font-family: "Kaushan Script", cursive;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.personne h3 {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.personne p {
+  font-family: "Roboto", sans-serif;
+
+  height: 150px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+[contenteditable="true"] {
+  border: solid #ddd 2px;
+  border-radius: 10px;
+}
+
+/* bouton ajout */
+
+.ajout {
+  border: solid black 2px;
+  border-radius: 15px;
+  padding-left: 5px;
+  padding: 5px 5px;
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
+.ajout button {
+  border: none;
+  background: none;
+}
+
+.ajout:hover {
+  transform: scale(1.2);
+}

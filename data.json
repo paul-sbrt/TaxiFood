@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Maki",
+    "price": 15.0,
+    "img": "./images/poke-salmon.jpeg",
+    "quantity": 0,
+    "isLiked": false
+  },
+  {
+    "id": 2,
+    "name": "Plateau festif",
+    "price": 32.0,
+    "img": "./images/plateau-sushi.jpeg",
+    "quantity": 0,
+    "isLiked": false
+  },
+  {
+    "id": 3,
+    "name": "Poke Saumon",
+    "price": 17.5,
+    "img": "./images/poke-salmon.jpeg",
+    "quantity": 0,
+    "isLiked": false
+  },
+  {
+    "id": 4,
+    "name": "Poke Veggie",
+    "price": 19.5,
+    "img": "./images/poke-veggie.jpeg",
+    "quantity": 0,
+    "isLiked": false
+  },
+  {
+    "id": 5,
+    "name": "Sashimi",
+    "price": 12.0,
+    "img": "./images/poke-veggie.jpeg",
+    "quantity": 0,
+    "isLiked": false
+  },
+  {
+    "id": 6,
+    "name": "L'avocado",
+    "price": 8.0,
+    "img": "./images/avocado.jpeg",
+    "quantity": 0,
+    "isLiked": false
+  }
+]

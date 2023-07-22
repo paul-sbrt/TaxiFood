@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="steelsheet.css" />
+    <link rel="stylesheet" href="../shared.css" />
+    <script
+      src="https://kit.fontawesome.com/7416e39a88.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+
+    <!--Police d'ecriture-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Taxi Foo'd</title>
+  </head>
+
+  <body>
+    <!--HEADER-->
+    <header class="header">
+      <div class="header_logo">
+        <a href="/"><span>Taxi</span><span>Foo'd</span></a>
+      </div>
+      <nav class="header_nav">
+        <ul class="header_nav-list">
+          <li class="header_nav-item btn"><a href="/">Boutique</a></li>
+          <li class="header_nav-item btn">
+            <a href="../team/team.html">Équipe</a>
+          </li>
+          <li class="header_nav-item btn">
+            <a href="./panier.html"
+              >Panier <i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ARTICLE 1 IMAGE -->
+    <article id="article1">
+      <img id="article1-image" src="../images/hero-banner.jpg" />
+    </article>
+    <!--ARTICLE 2 COMMANDE-->
+    <article id="article2">
+      <h1 id="article2-titre">C'est dans le panier !</h1>
+      <div id="article2-1">
+        <div id="product-1" class="article2-2">
+          <img
+            id="article2-image"
+            src="../images/poke-veggie.jpeg"
+            alt="california rolls"
+          />
+          <p id="article2font">California rolls x 8</p>
+          <p id="product-price-1">10 €</p>
+          <p id="article2-plusminus">
+            <button id="poubelle1" class="article2button">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+            <button onclick="removeProduct('product-1')" class="article2button">
+              <i class="fa-solid fa-minus"></i>
+            </button>
+            <span id="product-nombre-1">1</span>
+            <button onclick="addProduct('product-1')" class="article2button">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </p>
+        </div>
+        <div id="product-2" class="article2-2">
+          <img id="article2-image" src="../images/avocado.jpeg" alt="Sashimi" />
+          <p id="article2font">Sashimi x 8</p>
+          <p id="product-price-2">15 €</p>
+          <p id="article2-plusminus">
+            <button id="poubelle2" class="article2button">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+            <button onclick="removeProduct('product-2')" class="article2button">
+              <i class="fa-solid fa-minus"></i>
+            </button>
+            <span id="product-nombre-2">1</span>
+            <button onclick="addProduct('product-2')" class="article2button">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </p>
+        </div>
+        <div id="product-3" class="article2-2">
+          <img
+            id="article2-image"
+            src="../images/plateau-sushi.jpeg"
+            alt="plateau"
+          />
+          <p id="article2font">California rolls x 8</p>
+          <p id="product-price-3">25 €</p>
+          <p id="article2-plusminus">
+            <button id="poubelle3" class="article2button">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+            <button onclick="removeProduct('product-3')" class="article2button">
+              <i class="fa-solid fa-minus"></i>
+            </button>
+            <span id="product-nombre-3">1</span>
+            <button onclick="addProduct('product-3')" class="article2button">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </p>
+        </div>
+        <div id="product-4" class="article2-2">
+          <img
+            id="article2-image"
+            src="../images/plateau-sushi.jpeg"
+            alt="plateau"
+          />
+          <p id="article2font">California rolls x 8</p>
+          <p id="product-price-4">25 €</p>
+          <p id="article2-plusminus">
+            <button id="poubelle4" class="article2button">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+            <button onclick="removeProduct('product-4')" class="article2button">
+              <i class="fa-solid fa-minus"></i>
+            </button>
+            <span id="product-nombre-4">1</span>
+            <button onclick="addProduct('product-4')" class="article2button">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </p>
+        </div>
+      </div>
+    </article>
+    <!--ENCAISSEMENT-->
+    <article id="article3">
+      <div id="article3-1">
+        <div id="article3-button">
+          <div id="buttontotal">Total</div>
+          <p id="article3-prixtotal">75 €</p>
+        </div>
+        <button id="buttonpayer">Payez</button>
+      </div>
+    </article>
+  </body>
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <p>© Copyright - CEFIM 2023 - TaxiFoo'd</p>
+    <p>All right reserved</p>
+  </footer>
+</html>
